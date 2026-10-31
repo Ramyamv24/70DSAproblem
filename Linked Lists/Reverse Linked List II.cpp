@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Linked List Node
+
 struct ListNode {
     int val;
     ListNode* next;

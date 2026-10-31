@@ -29,7 +29,7 @@ public:
     }
 };
 
-// Function to print linked list
+
 void printList(ListNode* head) {
     while (head != nullptr) {
         cout << head->val << " ";

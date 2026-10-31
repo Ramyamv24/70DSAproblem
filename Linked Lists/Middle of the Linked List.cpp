@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Definition of Linked List Node
 struct ListNode {
     int val;
     ListNode* next;

@@ -39,7 +39,7 @@ int main() {
     head->next->next = new ListNode(3);
     head->next->next->next = new ListNode(4);
 
-    // Creating a cycle: 4 -> 2
+  
     head->next->next->next->next = head->next;
 
     Solution obj;

@@ -11,7 +11,7 @@ struct ListNode {
         next = nextNode;
     }
 };
-
+ 
 class Solution {
 public:
     ListNode* removeElements(ListNode* head, int val) {
@@ -34,7 +34,7 @@ public:
     }
 };
 
-// Print Linked List
+
 void printList(ListNode* head) {
     while (head != nullptr) {
         cout << head->val << " ";
